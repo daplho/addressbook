@@ -1,10 +1,11 @@
 package main
 
 import (
-	pb "github.com/daplho/addressbook/proto/tutorial"
-	"github.com/gogo/protobuf/proto"
 	"io/ioutil"
 	"log"
+
+	pb "github.com/daplho/addressbook/tutorial"
+	"github.com/gogo/protobuf/proto"
 )
 
 func main() {
